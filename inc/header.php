@@ -25,7 +25,7 @@ $blog_title = $db->select($query);
 if ($blog_title) {
     while ($result = $blog_title->fetch_assoc()) {
         ?>
-				<img src="admin/upload/hriday.png" alt="Logo"/>
+				<img src="admin/upload/mohin.png" alt="Logo"/>
 				<h2><?php echo $result['title']; ?></h2>
 				<p><?php echo $result['slogan']; ?></p>
 
